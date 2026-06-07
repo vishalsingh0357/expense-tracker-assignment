@@ -76,7 +76,9 @@ Path: /api/expenses/:id
 Response Shape: {"message": "Transaction deleted successfully"}
 
 
-### Project Structure
+## 📁 Project Structure
+
+```text
 expense-tracker-assignment/
 ├── server/
 │   ├── server.js          # Express initialization, SQLite schema configuration, & REST endpoints
@@ -84,7 +86,6 @@ expense-tracker-assignment/
 │   └── expenses.db        # Generated localized database storage layer
 └── client/
     ├── index.html         # Document markup wrapper with Tailwind CDN integration
-    ├── src/
-    │   ├── App.jsx        # Core application engine, analytical hooks, and visual screens
-    │   └── main.jsx       # Virtual DOM entry point mapping
-    └── package.json       # Frontend compilation dependencies
+    └── src/
+        ├── App.jsx        # Core application engine, analytical hooks, and visual screens
+        └── main.jsx       # Virtual DOM entry point mapping
